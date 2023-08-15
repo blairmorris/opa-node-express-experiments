@@ -1,0 +1,32 @@
+{
+  "name": "opa-node-express-experiments",
+  "version": "1.0.0",
+  "description": "Experimenting with OPA and ExpressJS integration",
+  "main": "index.mjs",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node --experimental-modules index.mjs",
+    "dev": "NODE_ENV=develop node --experimental-modules --watch index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.16.0",
+    "npm": ">=9.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:blairmorris/opa-node-express-experiments"
+  },
+  "author": "Blair Morris <e.blair.morris@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blairmorris/opa-node-express-experiments/issues"
+  },
+  "homepage": "https://github.com/blairmorris/opa-node-express-experiments#readme",
+  "dependencies": {
+    "@build-security/opa-express-middleware": "^0.0.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
